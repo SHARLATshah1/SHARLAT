@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معرفی برنامه‌ها</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>برنامه‌های من</h1>
+    </header>
+
+    <section class="app-list">
+        <div class="app">
+            <h2>نام برنامه ۱</h2>
+            <p>توضیحات کوتاه درباره برنامه ۱.</p>
+            <a href="#" class="download-btn">دانلود</a>
+        </div>
+        
+        <div class="app">
+            <h2>نام برنامه ۲</h2>
+            <p>توضیحات کوتاه درباره برنامه ۲.</p>
+            <a href="#" class="download-btn">دانلود</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>تمامی حقوق محفوظ است. طراحی شده توسط من!</p>
+    </footer>
+
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.app-list {
+    padding: 20px;
+}
+
+.app {
+    background: white;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.download-btn {
+    display: inline-block;
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
